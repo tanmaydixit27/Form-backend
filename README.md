@@ -1,9 +1,8 @@
 This is the backend repository for the Form Builder Application built using Node.js, Express, and MongoDB. The backend provides API endpoints for creating, editing, fetching, and deleting forms, storing responses, and managing form-related data.
 
 📁 Folder Structure
-bash
-Copy
-Edit
+
+
 server/
 │── config/                # Configuration files (e.g., database connection)
 │   ├── db.js              # MongoDB connection setup
