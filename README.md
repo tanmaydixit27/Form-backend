@@ -1,31 +1,6 @@
 This is the backend repository for the Form Builder Application built using Node.js, Express, and MongoDB. The backend provides API endpoints for creating, editing, fetching, and deleting forms, storing responses, and managing form-related data.
 
-📁 Folder Structure
 
-
-server/
-│── config/                # Configuration files (e.g., database connection)
-│   ├── db.js              # MongoDB connection setup
-│
-│── controllers/           # Business logic for handling requests
-│   ├── formController.js  # Logic for form creation, editing, fetching
-│
-│── models/                # Mongoose schema definitions
-│   ├── Form.js            # Schema for storing form structure
-│   ├── Response.js        # Schema for storing form responses (if needed)
-│
-│── routes/                # API route handlers
-│   ├── formRoutes.js      # Routes for form-related actions
-│
-│── middleware/            # Custom middlewares (if needed)
-│   ├── errorHandler.js    # Global error handling middleware
-│
-│── utils/                 # Utility functions/helpers
-│
-│── .env                   # Environment variables (DB_URI, PORT, etc.)
-│── server.js              # Main server file (Express app entry point)
-│── package.json           # Dependencies and scripts
-│── README.md              # Backend documentation
 🛠️ Tech Stack
 Backend: Node.js, Express.js
 Database: MongoDB, Mongoose
